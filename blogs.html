@@ -23,9 +23,14 @@
             max-width: 600px;
             margin: 20px auto;
         }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 20px 0;
+        }
         a {
-            display: block;
-            margin: 15px 0;
             color: #fff;
             text-decoration: none;
             font-size: 20px;
@@ -34,12 +39,20 @@
         a:hover {
             color: #ff0000;
         }
+        .back-home {
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <h1>Blogs</h1>
     <p>Here you will find the collection of blog posts documenting our findings and explorations.</p>
     
-    <a href="index.html">Back to Home</a>
+    <ul>
+        <li><a href="#">Found an office?</a></li>
+        <!-- Add more blog titles as needed -->
+    </ul>
+    
+    <a class="back-home" href="index.html">Back to Home</a>
 </body>
 </html>
